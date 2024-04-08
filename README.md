@@ -7,7 +7,7 @@ This is a php based project that pulls team and roster data for MLB teams.
 After starting the application navigate to public/index.php\
 Then click on Init DB to initialize the database and navigate back to the index.\
 Next click on seed team data to seed the team data into the db then navigate back to the index.\
-After that you will click seed player data on the index page and the application should be good to go.\
+After that you will click seed player data on the index page and the application should be good to go.
 
 ## How to use the application
 
