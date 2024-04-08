@@ -1,0 +1,1214 @@
+{
+	"info": {
+		"_postman_id": "d1e5adb1-33d0-43be-ac66-c344a50b95d5",
+		"name": "Baseball Data",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34123234"
+	},
+	"item": [
+		{
+			"name": "Get Cardinals Team Data",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-RapidAPI-Key",
+						"value": "3c1749555dmsh1fe9c5926a0cfc3p1aff24jsnbd023a2c45d5",
+						"type": "text"
+					},
+					{
+						"key": "X-RapidAPI-Host",
+						"value": "api-baseball.p.rapidapi.com",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://baseball4.p.rapidapi.com/v1/mlb/teams?teamId=138",
+					"protocol": "https",
+					"host": [
+						"baseball4",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"mlb",
+						"teams"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "teamId",
+							"value": "138"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Cardinals Team Data Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-RapidAPI-Key",
+								"value": "3c1749555dmsh1fe9c5926a0cfc3p1aff24jsnbd023a2c45d5",
+								"type": "text"
+							},
+							{
+								"key": "X-RapidAPI-Host",
+								"value": "api-baseball.p.rapidapi.com",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "https://baseball4.p.rapidapi.com/v1/mlb/teams?teamId=138",
+							"protocol": "https",
+							"host": [
+								"baseball4",
+								"p",
+								"rapidapi",
+								"com"
+							],
+							"path": [
+								"v1",
+								"mlb",
+								"teams"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "teamId",
+									"value": "138"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 08 Apr 2024 17:05:47 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "private, must-revalidate"
+						},
+						{
+							"key": "expires",
+							"value": "-1"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "x-latency",
+							"value": "333"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=RiZ6IYG8gebm4ixYwAhsRHRH9dKFgusQ44ELCCVuETvSq2gHnBHq%2B6uau7GGm92zMoYOZitZeraB%2BBpusVea50EGX5IuJ8exuoYUf%2FycVLMOqn1iLAJynxc23FdMagKCHoK94SQYkAsaoIRSTnc%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "x-ratelimit-limit",
+							"value": "5000"
+						},
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "x-ratelimit-remaining",
+							"value": "4999"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "8713d8172c5d0a87-IAD"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-RateLimit-Requests-Limit",
+							"value": "1000"
+						},
+						{
+							"key": "X-RateLimit-Requests-Remaining",
+							"value": "939"
+						},
+						{
+							"key": "X-RateLimit-Requests-Reset",
+							"value": "2583444"
+						},
+						{
+							"key": "X-RateLimit-rapid-free-plans-hard-limit-Limit",
+							"value": "500000"
+						},
+						{
+							"key": "X-RateLimit-rapid-free-plans-hard-limit-Remaining",
+							"value": "499939"
+						},
+						{
+							"key": "X-RateLimit-rapid-free-plans-hard-limit-Reset",
+							"value": "2583444"
+						},
+						{
+							"key": "Server",
+							"value": "RapidAPI-1.2.8"
+						},
+						{
+							"key": "X-RapidAPI-Version",
+							"value": "1.2.8"
+						},
+						{
+							"key": "X-RapidAPI-Region",
+							"value": "AWS - us-east-1"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"meta\": {\n        \"version\": \"v1.0\",\n        \"status\": 200,\n        \"copywrite\": \"https://devAPI.ai\"\n    },\n    \"body\": [\n        {\n            \"springLeague\": {\n                \"id\": 115,\n                \"name\": \"Grapefruit League\",\n                \"abbreviation\": \"GL\"\n            },\n            \"allStarStatus\": \"N\",\n            \"id\": 138,\n            \"name\": \"St. Louis Cardinals\",\n            \"season\": 2024,\n            \"venue\": {\n                \"id\": 2889,\n                \"name\": \"Busch Stadium\"\n            },\n            \"springVenue\": {\n                \"id\": 2520\n            },\n            \"teamCode\": \"sln\",\n            \"fileCode\": \"stl\",\n            \"abbreviation\": \"STL\",\n            \"teamName\": \"Cardinals\",\n            \"locationName\": \"St. Louis\",\n            \"firstYearOfPlay\": \"1892\",\n            \"league\": {\n                \"id\": 104,\n                \"name\": \"National League\"\n            },\n            \"division\": {\n                \"id\": 205,\n                \"name\": \"National League Central\"\n            },\n            \"sport\": {\n                \"id\": 1,\n                \"name\": \"Major League Baseball\"\n            },\n            \"shortName\": \"St. Louis\",\n            \"franchiseName\": \"St. Louis\",\n            \"clubName\": \"Cardinals\",\n            \"active\": true\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Cubs Team Data",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-RapidAPI-Key",
+						"value": "3c1749555dmsh1fe9c5926a0cfc3p1aff24jsnbd023a2c45d5",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://baseball4.p.rapidapi.com/v1/mlb/teams?teamId=112",
+					"protocol": "https",
+					"host": [
+						"baseball4",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"mlb",
+						"teams"
+					],
+					"query": [
+						{
+							"key": "teamId",
+							"value": "112"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Cubs Team Data Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-RapidAPI-Key",
+								"value": "3c1749555dmsh1fe9c5926a0cfc3p1aff24jsnbd023a2c45d5",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://baseball4.p.rapidapi.com/v1/mlb/teams?teamId=112",
+							"protocol": "https",
+							"host": [
+								"baseball4",
+								"p",
+								"rapidapi",
+								"com"
+							],
+							"path": [
+								"v1",
+								"mlb",
+								"teams"
+							],
+							"query": [
+								{
+									"key": "teamId",
+									"value": "112"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 08 Apr 2024 17:06:05 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "private, must-revalidate"
+						},
+						{
+							"key": "expires",
+							"value": "-1"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "x-latency",
+							"value": "346"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=E2xJmFN%2F%2FO1OgYmW70TDs6hqR9%2BzOCffW57HALEjNMagPlhEfiidO6rabdFsx1WGFre8qhX2k92dQincitEuRO4LTlUcseV6QCiQ%2BzII9VlUAE51NXAJtBOp%2BK1MjsJ8Ev8sHKQy8rocV3sMCFE%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "x-ratelimit-limit",
+							"value": "5000"
+						},
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "x-ratelimit-remaining",
+							"value": "4999"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "8713d876f98f57b8-IAD"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-RateLimit-Requests-Limit",
+							"value": "1000"
+						},
+						{
+							"key": "X-RateLimit-Requests-Remaining",
+							"value": "938"
+						},
+						{
+							"key": "X-RateLimit-Requests-Reset",
+							"value": "2583426"
+						},
+						{
+							"key": "X-RateLimit-rapid-free-plans-hard-limit-Limit",
+							"value": "500000"
+						},
+						{
+							"key": "X-RateLimit-rapid-free-plans-hard-limit-Remaining",
+							"value": "499938"
+						},
+						{
+							"key": "X-RateLimit-rapid-free-plans-hard-limit-Reset",
+							"value": "2583426"
+						},
+						{
+							"key": "Server",
+							"value": "RapidAPI-1.2.8"
+						},
+						{
+							"key": "X-RapidAPI-Version",
+							"value": "1.2.8"
+						},
+						{
+							"key": "X-RapidAPI-Region",
+							"value": "AWS - us-east-1"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"meta\": {\n        \"version\": \"v1.0\",\n        \"status\": 200,\n        \"copywrite\": \"https://devAPI.ai\"\n    },\n    \"body\": [\n        {\n            \"springLeague\": {\n                \"id\": 114,\n                \"name\": \"Cactus League\",\n                \"abbreviation\": \"CL\"\n            },\n            \"allStarStatus\": \"N\",\n            \"id\": 112,\n            \"name\": \"Chicago Cubs\",\n            \"season\": 2024,\n            \"venue\": {\n                \"id\": 17,\n                \"name\": \"Wrigley Field\"\n            },\n            \"springVenue\": {\n                \"id\": 4629\n            },\n            \"teamCode\": \"chn\",\n            \"fileCode\": \"chc\",\n            \"abbreviation\": \"CHC\",\n            \"teamName\": \"Cubs\",\n            \"locationName\": \"Chicago\",\n            \"firstYearOfPlay\": \"1874\",\n            \"league\": {\n                \"id\": 104,\n                \"name\": \"National League\"\n            },\n            \"division\": {\n                \"id\": 205,\n                \"name\": \"National League Central\"\n            },\n            \"sport\": {\n                \"id\": 1,\n                \"name\": \"Major League Baseball\"\n            },\n            \"shortName\": \"Chi Cubs\",\n            \"franchiseName\": \"Chicago\",\n            \"clubName\": \"Cubs\",\n            \"active\": true\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Yankees Team Data",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-RapidAPI-Key",
+						"value": "3c1749555dmsh1fe9c5926a0cfc3p1aff24jsnbd023a2c45d5",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://baseball4.p.rapidapi.com/v1/mlb/teams?teamId=147",
+					"protocol": "https",
+					"host": [
+						"baseball4",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"mlb",
+						"teams"
+					],
+					"query": [
+						{
+							"key": "teamId",
+							"value": "147"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Yankees Team Data Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-RapidAPI-Key",
+								"value": "3c1749555dmsh1fe9c5926a0cfc3p1aff24jsnbd023a2c45d5",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://baseball4.p.rapidapi.com/v1/mlb/teams?teamId=147",
+							"protocol": "https",
+							"host": [
+								"baseball4",
+								"p",
+								"rapidapi",
+								"com"
+							],
+							"path": [
+								"v1",
+								"mlb",
+								"teams"
+							],
+							"query": [
+								{
+									"key": "teamId",
+									"value": "147"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 08 Apr 2024 17:06:22 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "private, must-revalidate"
+						},
+						{
+							"key": "expires",
+							"value": "-1"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "x-latency",
+							"value": "365"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=DiZVUGdSwReE%2FN67Hcn8bBWWVRb5oMV5dJsDzl7hEQianuL6IHvlCx5yjC5iT0TblkZYLCt4bnp93c8xVSHfS%2BsskAkTpvMWkstJC0vUle6B4VhelxI0U8%2F9Vx2DT0meAdR6Haq7CYs5OHUTGog%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "x-ratelimit-limit",
+							"value": "5000"
+						},
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "x-ratelimit-remaining",
+							"value": "4999"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "8713d8f06f8882ab-IAD"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-RateLimit-Requests-Limit",
+							"value": "1000"
+						},
+						{
+							"key": "X-RateLimit-Requests-Remaining",
+							"value": "937"
+						},
+						{
+							"key": "X-RateLimit-Requests-Reset",
+							"value": "2583409"
+						},
+						{
+							"key": "X-RateLimit-rapid-free-plans-hard-limit-Limit",
+							"value": "500000"
+						},
+						{
+							"key": "X-RateLimit-rapid-free-plans-hard-limit-Remaining",
+							"value": "499937"
+						},
+						{
+							"key": "X-RateLimit-rapid-free-plans-hard-limit-Reset",
+							"value": "2583409"
+						},
+						{
+							"key": "Server",
+							"value": "RapidAPI-1.2.8"
+						},
+						{
+							"key": "X-RapidAPI-Version",
+							"value": "1.2.8"
+						},
+						{
+							"key": "X-RapidAPI-Region",
+							"value": "AWS - us-east-1"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"meta\": {\n        \"version\": \"v1.0\",\n        \"status\": 200,\n        \"copywrite\": \"https://devAPI.ai\"\n    },\n    \"body\": [\n        {\n            \"springLeague\": {\n                \"id\": 115,\n                \"name\": \"Grapefruit League\",\n                \"abbreviation\": \"GL\"\n            },\n            \"allStarStatus\": \"N\",\n            \"id\": 147,\n            \"name\": \"New York Yankees\",\n            \"season\": 2024,\n            \"venue\": {\n                \"id\": 3313,\n                \"name\": \"Yankee Stadium\"\n            },\n            \"springVenue\": {\n                \"id\": 2523\n            },\n            \"teamCode\": \"nya\",\n            \"fileCode\": \"nyy\",\n            \"abbreviation\": \"NYY\",\n            \"teamName\": \"Yankees\",\n            \"locationName\": \"Bronx\",\n            \"firstYearOfPlay\": \"1903\",\n            \"league\": {\n                \"id\": 103,\n                \"name\": \"American League\"\n            },\n            \"division\": {\n                \"id\": 201,\n                \"name\": \"American League East\"\n            },\n            \"sport\": {\n                \"id\": 1,\n                \"name\": \"Major League Baseball\"\n            },\n            \"shortName\": \"NY Yankees\",\n            \"franchiseName\": \"New York\",\n            \"clubName\": \"Yankees\",\n            \"active\": true\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Rangers Team Data",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-RapidAPI-Key",
+						"value": "3c1749555dmsh1fe9c5926a0cfc3p1aff24jsnbd023a2c45d5",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://baseball4.p.rapidapi.com/v1/mlb/teams?teamId=140",
+					"protocol": "https",
+					"host": [
+						"baseball4",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"mlb",
+						"teams"
+					],
+					"query": [
+						{
+							"key": "teamId",
+							"value": "140"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Rangers Team Data Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-RapidAPI-Key",
+								"value": "3c1749555dmsh1fe9c5926a0cfc3p1aff24jsnbd023a2c45d5",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://baseball4.p.rapidapi.com/v1/mlb/teams?teamId=140",
+							"protocol": "https",
+							"host": [
+								"baseball4",
+								"p",
+								"rapidapi",
+								"com"
+							],
+							"path": [
+								"v1",
+								"mlb",
+								"teams"
+							],
+							"query": [
+								{
+									"key": "teamId",
+									"value": "140"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 08 Apr 2024 17:06:34 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "private, must-revalidate"
+						},
+						{
+							"key": "expires",
+							"value": "-1"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "x-latency",
+							"value": "112"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=SUJhMOnYtVQWxpnlBHNhKIM%2BY9blbgQjB84F%2FEGMUBQawbZR5nGb9ouux7IairW%2B7w4UfajFM3DsWHP%2FxVMmRzVbhSfs%2FoC2ngbHwv8t2YxLnbaklbaRCDmcfn7wqltjzHLXOvTRq5odVqajQhI%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "x-ratelimit-limit",
+							"value": "5000"
+						},
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "x-ratelimit-remaining",
+							"value": "4999"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "8713d93d58c728a0-IAD"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-RateLimit-Requests-Limit",
+							"value": "1000"
+						},
+						{
+							"key": "X-RateLimit-Requests-Remaining",
+							"value": "936"
+						},
+						{
+							"key": "X-RateLimit-Requests-Reset",
+							"value": "2583397"
+						},
+						{
+							"key": "X-RateLimit-rapid-free-plans-hard-limit-Limit",
+							"value": "500000"
+						},
+						{
+							"key": "X-RateLimit-rapid-free-plans-hard-limit-Remaining",
+							"value": "499936"
+						},
+						{
+							"key": "X-RateLimit-rapid-free-plans-hard-limit-Reset",
+							"value": "2583397"
+						},
+						{
+							"key": "Server",
+							"value": "RapidAPI-1.2.8"
+						},
+						{
+							"key": "X-RapidAPI-Version",
+							"value": "1.2.8"
+						},
+						{
+							"key": "X-RapidAPI-Region",
+							"value": "AWS - us-east-1"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"meta\": {\n        \"version\": \"v1.0\",\n        \"status\": 200,\n        \"copywrite\": \"https://devAPI.ai\"\n    },\n    \"body\": [\n        {\n            \"springLeague\": {\n                \"id\": 114,\n                \"name\": \"Cactus League\",\n                \"abbreviation\": \"CL\"\n            },\n            \"allStarStatus\": \"N\",\n            \"id\": 140,\n            \"name\": \"Texas Rangers\",\n            \"season\": 2024,\n            \"venue\": {\n                \"id\": 5325,\n                \"name\": \"Globe Life Field\"\n            },\n            \"springVenue\": {\n                \"id\": 2603\n            },\n            \"teamCode\": \"tex\",\n            \"fileCode\": \"tex\",\n            \"abbreviation\": \"TEX\",\n            \"teamName\": \"Rangers\",\n            \"locationName\": \"Arlington\",\n            \"firstYearOfPlay\": \"1961\",\n            \"league\": {\n                \"id\": 103,\n                \"name\": \"American League\"\n            },\n            \"division\": {\n                \"id\": 200,\n                \"name\": \"American League West\"\n            },\n            \"sport\": {\n                \"id\": 1,\n                \"name\": \"Major League Baseball\"\n            },\n            \"shortName\": \"Texas\",\n            \"franchiseName\": \"Texas\",\n            \"clubName\": \"Rangers\",\n            \"active\": true\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Cardinals Player Data",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-RapidAPI-Key",
+						"value": "3c1749555dmsh1fe9c5926a0cfc3p1aff24jsnbd023a2c45d5",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://baseball4.p.rapidapi.com/v1/mlb/teams-roster?teamIds=138",
+					"protocol": "https",
+					"host": [
+						"baseball4",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"mlb",
+						"teams-roster"
+					],
+					"query": [
+						{
+							"key": "teamIds",
+							"value": "138"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Cardinals Player Data Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-RapidAPI-Key",
+								"value": "3c1749555dmsh1fe9c5926a0cfc3p1aff24jsnbd023a2c45d5",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://baseball4.p.rapidapi.com/v1/mlb/teams-roster?teamIds=138",
+							"protocol": "https",
+							"host": [
+								"baseball4",
+								"p",
+								"rapidapi",
+								"com"
+							],
+							"path": [
+								"v1",
+								"mlb",
+								"teams-roster"
+							],
+							"query": [
+								{
+									"key": "teamIds",
+									"value": "138"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 08 Apr 2024 15:25:29 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "private, must-revalidate"
+						},
+						{
+							"key": "expires",
+							"value": "-1"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "x-latency",
+							"value": "88"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=S7Qc%2FjuAOt8pIEn%2BWCik%2FJqjX19vzV%2BYGLLyZaAiEeDuAllTGEoJKs9erR9ASJi6w7PyxalKv5fJR5ikKbQZJP%2BaLLASD3ImvAZX%2BOiHGbsP1ez6ZcgHI9YM4rKOhPZQKB5yieGeh7Ug4ZHUk98%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "x-ratelimit-limit",
+							"value": "5000"
+						},
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "x-ratelimit-remaining",
+							"value": "4999"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "8713452efed057c6-IAD"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-RateLimit-Requests-Limit",
+							"value": "1000"
+						},
+						{
+							"key": "X-RateLimit-Requests-Remaining",
+							"value": "982"
+						},
+						{
+							"key": "X-RateLimit-Requests-Reset",
+							"value": "2589462"
+						},
+						{
+							"key": "X-RateLimit-rapid-free-plans-hard-limit-Limit",
+							"value": "500000"
+						},
+						{
+							"key": "X-RateLimit-rapid-free-plans-hard-limit-Remaining",
+							"value": "499982"
+						},
+						{
+							"key": "X-RateLimit-rapid-free-plans-hard-limit-Reset",
+							"value": "2589462"
+						},
+						{
+							"key": "Server",
+							"value": "RapidAPI-1.2.8"
+						},
+						{
+							"key": "X-RapidAPI-Version",
+							"value": "1.2.8"
+						},
+						{
+							"key": "X-RapidAPI-Region",
+							"value": "AWS - us-east-1"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"meta\": {\n        \"version\": \"v1.0\",\n        \"status\": 200,\n        \"copywrite\": \"https://devAPI.ai\"\n    },\n    \"body\": {\n        \"roster\": [\n            {\n                \"person\": {\n                    \"id\": 676475,\n                    \"fullName\": \"Alec Burleson\"\n                },\n                \"jerseyNumber\": \"41\",\n                \"position\": {\n                    \"code\": \"9\",\n                    \"name\": \"Outfielder\",\n                    \"type\": \"Outfielder\",\n                    \"abbreviation\": \"RF\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 669467,\n                    \"fullName\": \"Andre Pallante\"\n                },\n                \"jerseyNumber\": \"53\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 552640,\n                    \"fullName\": \"Andrew Kittredge\"\n                },\n                \"jerseyNumber\": \"27\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 543063,\n                    \"fullName\": \"Brandon Crawford\"\n                },\n                \"jerseyNumber\": \"35\",\n                \"position\": {\n                    \"code\": \"6\",\n                    \"name\": \"Shortstop\",\n                    \"type\": \"Infielder\",\n                    \"abbreviation\": \"SS\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 680977,\n                    \"fullName\": \"Brendan Donovan\"\n                },\n                \"jerseyNumber\": \"33\",\n                \"position\": {\n                    \"code\": \"7\",\n                    \"name\": \"Outfielder\",\n                    \"type\": \"Outfielder\",\n                    \"abbreviation\": \"LF\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 606149,\n                    \"fullName\": \"Giovanny Gallegos\"\n                },\n                \"jerseyNumber\": \"65\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 671056,\n                    \"fullName\": \"Iván Herrera\"\n                },\n                \"jerseyNumber\": \"48\",\n                \"position\": {\n                    \"code\": \"2\",\n                    \"name\": \"Catcher\",\n                    \"type\": \"Catcher\",\n                    \"abbreviation\": \"C\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 668941,\n                    \"fullName\": \"JoJo Romero\"\n                },\n                \"jerseyNumber\": \"59\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 667463,\n                    \"fullName\": \"John King\"\n                },\n                \"jerseyNumber\": \"47\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 691023,\n                    \"fullName\": \"Jordan Walker\"\n                },\n                \"jerseyNumber\": \"18\",\n                \"position\": {\n                    \"code\": \"9\",\n                    \"name\": \"Outfielder\",\n                    \"type\": \"Outfielder\",\n                    \"abbreviation\": \"RF\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 502043,\n                    \"fullName\": \"Kyle Gibson\"\n                },\n                \"jerseyNumber\": \"44\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 458681,\n                    \"fullName\": \"Lance Lynn\"\n                },\n                \"jerseyNumber\": \"31\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 691026,\n                    \"fullName\": \"Masyn Winn\"\n                },\n                \"jerseyNumber\": \"0\",\n                \"position\": {\n                    \"code\": \"6\",\n                    \"name\": \"Shortstop\",\n                    \"type\": \"Infielder\",\n                    \"abbreviation\": \"SS\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 669461,\n                    \"fullName\": \"Matthew Liberatore\"\n                },\n                \"jerseyNumber\": \"52\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 672279,\n                    \"fullName\": \"Michael Siani\"\n                },\n                \"jerseyNumber\": \"63\",\n                \"position\": {\n                    \"code\": \"7\",\n                    \"name\": \"Outfielder\",\n                    \"type\": \"Outfielder\",\n                    \"abbreviation\": \"LF\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 571945,\n                    \"fullName\": \"Miles Mikolas\"\n                },\n                \"jerseyNumber\": \"39\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 571448,\n                    \"fullName\": \"Nolan Arenado\"\n                },\n                \"jerseyNumber\": \"28\",\n                \"position\": {\n                    \"code\": \"5\",\n                    \"name\": \"Third Base\",\n                    \"type\": \"Infielder\",\n                    \"abbreviation\": \"3B\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 669357,\n                    \"fullName\": \"Nolan Gorman\"\n                },\n                \"jerseyNumber\": \"16\",\n                \"position\": {\n                    \"code\": \"4\",\n                    \"name\": \"Second Base\",\n                    \"type\": \"Infielder\",\n                    \"abbreviation\": \"2B\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 502671,\n                    \"fullName\": \"Paul Goldschmidt\"\n                },\n                \"jerseyNumber\": \"46\",\n                \"position\": {\n                    \"code\": \"3\",\n                    \"name\": \"First Base\",\n                    \"type\": \"Infielder\",\n                    \"abbreviation\": \"1B\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 686780,\n                    \"fullName\": \"Pedro Pagés\"\n                },\n                \"jerseyNumber\": \"43\",\n                \"position\": {\n                    \"code\": \"2\",\n                    \"name\": \"Catcher\",\n                    \"type\": \"Catcher\",\n                    \"abbreviation\": \"C\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 681676,\n                    \"fullName\": \"Ryan Fernandez\"\n                },\n                \"jerseyNumber\": \"64\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 664854,\n                    \"fullName\": \"Ryan Helsley\"\n                },\n                \"jerseyNumber\": \"56\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 571927,\n                    \"fullName\": \"Steven Matz\"\n                },\n                \"jerseyNumber\": \"32\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 687363,\n                    \"fullName\": \"Victor Scott II\"\n                },\n                \"jerseyNumber\": \"11\",\n                \"position\": {\n                    \"code\": \"8\",\n                    \"name\": \"Outfielder\",\n                    \"type\": \"Outfielder\",\n                    \"abbreviation\": \"CF\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 575929,\n                    \"fullName\": \"Willson Contreras\"\n                },\n                \"jerseyNumber\": \"40\",\n                \"position\": {\n                    \"code\": \"2\",\n                    \"name\": \"Catcher\",\n                    \"type\": \"Catcher\",\n                    \"abbreviation\": \"C\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            },\n            {\n                \"person\": {\n                    \"id\": 668868,\n                    \"fullName\": \"Zack Thompson\"\n                },\n                \"jerseyNumber\": \"57\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 138\n            }\n        ],\n        \"teamId\": 138,\n        \"rosterType\": \"active\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Cubs Player Data",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-RapidAPI-Key",
+						"value": "3c1749555dmsh1fe9c5926a0cfc3p1aff24jsnbd023a2c45d5",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://baseball4.p.rapidapi.com/v1/mlb/teams-roster?teamIds=112",
+					"protocol": "https",
+					"host": [
+						"baseball4",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"mlb",
+						"teams-roster"
+					],
+					"query": [
+						{
+							"key": "teamIds",
+							"value": "112"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get CubsPlayer Data Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-RapidAPI-Key",
+								"value": "3c1749555dmsh1fe9c5926a0cfc3p1aff24jsnbd023a2c45d5",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://baseball4.p.rapidapi.com/v1/mlb/teams-roster?teamIds=112",
+							"protocol": "https",
+							"host": [
+								"baseball4",
+								"p",
+								"rapidapi",
+								"com"
+							],
+							"path": [
+								"v1",
+								"mlb",
+								"teams-roster"
+							],
+							"query": [
+								{
+									"key": "teamIds",
+									"value": "112"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 08 Apr 2024 17:05:01 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "private, must-revalidate"
+						},
+						{
+							"key": "expires",
+							"value": "-1"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "x-latency",
+							"value": "108"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=OJSeUaTjeE7hXApNVXLjYXEhlAAARPu71qijQjyDd9jZlhWsbj5YetDkNKI%2FKMH%2FPgpww4kbYOR%2B2QLD%2FPyFvzxYPz3PzS0h2gaH%2Fz8rW3huB%2BZRh46znzgrWs8IjttUwsaI2SLPMEpwDlNc3Ek%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "x-ratelimit-limit",
+							"value": "5000"
+						},
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "x-ratelimit-remaining",
+							"value": "4999"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "8713d6f76f1382f0-IAD"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-RateLimit-Requests-Limit",
+							"value": "1000"
+						},
+						{
+							"key": "X-RateLimit-Requests-Remaining",
+							"value": "940"
+						},
+						{
+							"key": "X-RateLimit-Requests-Reset",
+							"value": "2583490"
+						},
+						{
+							"key": "X-RateLimit-rapid-free-plans-hard-limit-Limit",
+							"value": "500000"
+						},
+						{
+							"key": "X-RateLimit-rapid-free-plans-hard-limit-Remaining",
+							"value": "499940"
+						},
+						{
+							"key": "X-RateLimit-rapid-free-plans-hard-limit-Reset",
+							"value": "2583490"
+						},
+						{
+							"key": "Server",
+							"value": "RapidAPI-1.2.8"
+						},
+						{
+							"key": "X-RapidAPI-Version",
+							"value": "1.2.8"
+						},
+						{
+							"key": "X-RapidAPI-Region",
+							"value": "AWS - us-east-1"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"meta\": {\n        \"version\": \"v1.0\",\n        \"status\": 200,\n        \"copywrite\": \"https://devAPI.ai\"\n    },\n    \"body\": {\n        \"roster\": [\n            {\n                \"person\": {\n                    \"id\": 640470,\n                    \"fullName\": \"Adbert Alzolay\"\n                },\n                \"jerseyNumber\": \"73\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 676962,\n                    \"fullName\": \"Ben Brown\"\n                },\n                \"jerseyNumber\": \"32\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 666624,\n                    \"fullName\": \"Christopher Morel\"\n                },\n                \"jerseyNumber\": \"5\",\n                \"position\": {\n                    \"code\": \"5\",\n                    \"name\": \"Third Base\",\n                    \"type\": \"Infielder\",\n                    \"abbreviation\": \"3B\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 641355,\n                    \"fullName\": \"Cody Bellinger\"\n                },\n                \"jerseyNumber\": \"24\",\n                \"position\": {\n                    \"code\": \"8\",\n                    \"name\": \"Outfielder\",\n                    \"type\": \"Outfielder\",\n                    \"abbreviation\": \"CF\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 694037,\n                    \"fullName\": \"Daniel Palencia\"\n                },\n                \"jerseyNumber\": \"48\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 621020,\n                    \"fullName\": \"Dansby Swanson\"\n                },\n                \"jerseyNumber\": \"7\",\n                \"position\": {\n                    \"code\": \"6\",\n                    \"name\": \"Shortstop\",\n                    \"type\": \"Infielder\",\n                    \"abbreviation\": \"SS\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 592767,\n                    \"fullName\": \"Drew Smyly\"\n                },\n                \"jerseyNumber\": \"11\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 643265,\n                    \"fullName\": \"Garrett Cooper\"\n                },\n                \"jerseyNumber\": \"41\",\n                \"position\": {\n                    \"code\": \"3\",\n                    \"name\": \"First Base\",\n                    \"type\": \"Infielder\",\n                    \"abbreviation\": \"1B\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 593576,\n                    \"fullName\": \"Héctor Neris\"\n                },\n                \"jerseyNumber\": \"51\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 664023,\n                    \"fullName\": \"Ian Happ\"\n                },\n                \"jerseyNumber\": \"8\",\n                \"position\": {\n                    \"code\": \"7\",\n                    \"name\": \"Outfielder\",\n                    \"type\": \"Outfielder\",\n                    \"abbreviation\": \"LF\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 665871,\n                    \"fullName\": \"Javier Assad\"\n                },\n                \"jerseyNumber\": \"72\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 696136,\n                    \"fullName\": \"Jordan Wicks\"\n                },\n                \"jerseyNumber\": \"36\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 621016,\n                    \"fullName\": \"Jose Cuas\"\n                },\n                \"jerseyNumber\": \"74\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 543294,\n                    \"fullName\": \"Kyle Hendricks\"\n                },\n                \"jerseyNumber\": \"28\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 681432,\n                    \"fullName\": \"Luke Little\"\n                },\n                \"jerseyNumber\": \"43\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 643410,\n                    \"fullName\": \"Mark Leiter Jr.\"\n                },\n                \"jerseyNumber\": \"38\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 683737,\n                    \"fullName\": \"Michael Busch\"\n                },\n                \"jerseyNumber\": \"29\",\n                \"position\": {\n                    \"code\": \"3\",\n                    \"name\": \"First Base\",\n                    \"type\": \"Infielder\",\n                    \"abbreviation\": \"1B\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 665804,\n                    \"fullName\": \"Miguel Amaya\"\n                },\n                \"jerseyNumber\": \"9\",\n                \"position\": {\n                    \"code\": \"2\",\n                    \"name\": \"Catcher\",\n                    \"type\": \"Catcher\",\n                    \"abbreviation\": \"C\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 643565,\n                    \"fullName\": \"Mike Tauchman\"\n                },\n                \"jerseyNumber\": \"40\",\n                \"position\": {\n                    \"code\": \"8\",\n                    \"name\": \"Outfielder\",\n                    \"type\": \"Outfielder\",\n                    \"abbreviation\": \"CF\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 670156,\n                    \"fullName\": \"Miles Mastrobuoni\"\n                },\n                \"jerseyNumber\": \"20\",\n                \"position\": {\n                    \"code\": \"4\",\n                    \"name\": \"Second Base\",\n                    \"type\": \"Infielder\",\n                    \"abbreviation\": \"2B\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 663611,\n                    \"fullName\": \"Nick Madrigal\"\n                },\n                \"jerseyNumber\": \"1\",\n                \"position\": {\n                    \"code\": \"5\",\n                    \"name\": \"Third Base\",\n                    \"type\": \"Infielder\",\n                    \"abbreviation\": \"3B\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 663538,\n                    \"fullName\": \"Nico Hoerner\"\n                },\n                \"jerseyNumber\": \"2\",\n                \"position\": {\n                    \"code\": \"4\",\n                    \"name\": \"Second Base\",\n                    \"type\": \"Infielder\",\n                    \"abbreviation\": \"2B\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 673548,\n                    \"fullName\": \"Seiya Suzuki\"\n                },\n                \"jerseyNumber\": \"27\",\n                \"position\": {\n                    \"code\": \"9\",\n                    \"name\": \"Outfielder\",\n                    \"type\": \"Outfielder\",\n                    \"abbreviation\": \"RF\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 684007,\n                    \"fullName\": \"Shota Imanaga\"\n                },\n                \"jerseyNumber\": \"18\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 543228,\n                    \"fullName\": \"Yan Gomes\"\n                },\n                \"jerseyNumber\": \"15\",\n                \"position\": {\n                    \"code\": \"2\",\n                    \"name\": \"Catcher\",\n                    \"type\": \"Catcher\",\n                    \"abbreviation\": \"C\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            },\n            {\n                \"person\": {\n                    \"id\": 622075,\n                    \"fullName\": \"Yency Almonte\"\n                },\n                \"jerseyNumber\": \"25\",\n                \"position\": {\n                    \"code\": \"1\",\n                    \"name\": \"Pitcher\",\n                    \"type\": \"Pitcher\",\n                    \"abbreviation\": \"P\"\n                },\n                \"status\": {\n                    \"code\": \"A\",\n                    \"description\": \"Active\"\n                },\n                \"parentTeamId\": 112\n            }\n        ],\n        \"teamId\": 112,\n        \"rosterType\": \"active\"\n    }\n}"
+				}
+			]
+		}
+	]
+}
